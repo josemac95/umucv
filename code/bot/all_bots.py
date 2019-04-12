@@ -12,7 +12,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import cv2 as cv
 # Enviar bytes
 from io import BytesIO
-# Para cargar una imagen dados los bytes
+# Para cargar una imagen
 from PIL import Image
 # Para cargar una imagen dado el path
 import skimage.io as io
